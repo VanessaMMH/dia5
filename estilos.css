@@ -1,0 +1,65 @@
+/* SELECTORES */
+
+/* Selector general */
+*{
+	font-weight: 700;
+}
+
+/* Selector de etiquetas */
+/* Todos los span y los p */
+p , span{
+	color: red;
+}
+/* todos los span que sean descendientes de un p */
+p span{
+	color: green;
+}
+/* todos los span que son descendientes de p que a su ves sean des */
+div p span{
+	color: peru;
+}
+/* todos los span directos de un div */
+div > span
+{
+	color:  blue;
+}
+/* el primer hermano  sucesor directo de h1 */
+h1 + p
+{
+	color:  magenta;
+}
+/* SELECTORES DE ID */
+#titulo{
+	color: skyblue;
+}
+/* Selectores de clase */
+
+.cuadrado{
+	border-style: solid;
+	border-width: 1px;
+	border-color: red;
+	border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
